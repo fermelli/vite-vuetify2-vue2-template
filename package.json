@@ -1,20 +1,26 @@
 {
-  "name": "vite-vuetify2-vue2",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "vite-plugin-vue2": "^2.0.2",
-    "vue": "2.7.14"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^3.2.0",
-    "vite": "^3.2.3",
-    "vue-template-compiler": "^2.7.14"
-  }
+    "name": "vite-vuetify2-vue2",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+        "format": "prettier .  --write"
+    },
+    "dependencies": {
+        "vue": "2.7.14"
+    },
+    "devDependencies": {
+        "eslint": "^8.27.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-vue": "^9.7.0",
+        "prettier": "2.7.1",
+        "vite": "^3.2.3",
+        "vite-plugin-vue2": "^2.0.2",
+        "vue-template-compiler": "^2.7.14"
+    }
 }
