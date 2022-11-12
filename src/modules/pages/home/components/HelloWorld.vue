@@ -1,4 +1,6 @@
 <script>
+import { mapGetters } from 'vuex'
+
 export default {
     name: 'HelloWorld',
     props: {
@@ -7,10 +9,13 @@ export default {
             required: true,
         },
     },
-    data() {
-        return {
-            count: 0,
-        }
+    computed: {
+        ...mapGetters('counter', ['count']),
+    },
+    methods: {
+        increment() {
+            this.$store.dispatch('counter/increment')
+        },
     },
 }
 </script>
@@ -20,7 +25,9 @@ export default {
         <h1>{{ msg }}</h1>
 
         <div class="card">
-            <button type="button" @click="count++">count is {{ count }}</button>
+            <button type="button" @click="increment">
+                increment: {{ count }}
+            </button>
             <p>
                 Edit
                 <code>components/HelloWorld.vue</code> to test HMR
