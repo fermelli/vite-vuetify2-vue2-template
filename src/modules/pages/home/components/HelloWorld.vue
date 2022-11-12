@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <div id="app">
+    <div>
         <h1>{{ msg }}</h1>
 
         <div class="card">
