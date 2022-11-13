@@ -16,7 +16,14 @@ export default {
 
 <template>
     <div>
+        <p>
+            <router-link :to="{ name: 'Home' }"> Home </router-link>
+        </p>
+
         <h1>About View</h1>
-        <button type="button" @click="decrement">decrement: {{ count }}</button>
+
+        <v-btn color="primary" class="my-4" @click="decrement">
+            decrement: {{ count }}
+        </v-btn>
     </div>
 </template>

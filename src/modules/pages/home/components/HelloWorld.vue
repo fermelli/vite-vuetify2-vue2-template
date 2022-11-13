@@ -25,9 +25,9 @@ export default {
         <h1>{{ msg }}</h1>
 
         <div class="card">
-            <button type="button" @click="increment">
+            <v-btn color="primary" class="my-4" @click="increment">
                 increment: {{ count }}
-            </button>
+            </v-btn>
             <p>
                 Edit
                 <code>components/HelloWorld.vue</code> to test HMR
@@ -44,9 +44,7 @@ export default {
         </p>
         <p>
             Install
-            <a href="https://github.com/johnsoncodehk/volar" target="_blank"
-                >Volar</a
-            >
+            <a href="https://github.com/vuejs/vetur" target="_blank">Vetur</a>
             in your IDE for a better DX
         </p>
         <p class="read-the-docs">
