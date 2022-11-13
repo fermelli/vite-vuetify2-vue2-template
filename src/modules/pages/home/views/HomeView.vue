@@ -24,7 +24,7 @@ export default {
             </a>
         </div>
 
-        <HelloWorld msg="Vite3 + Vue2 (Vue Router y Vuex ) + Vuetify2" />
+        <HelloWorld msg="Vite3 + Vue2 (Vue Router y Vuex) + Vuetify2" />
     </div>
 </template>
 

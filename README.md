@@ -1,7 +1,20 @@
-# Vue 3 + Vite
+# Plantilla Vite3 + Vue2 (Vue Router y Vuex) + Vuetify2
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Creación propia
 
-## Recommended IDE Setup
+## Dependencias
 
--   [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+-   Vue@2.7.14
+    -   Vue Router@3.6.5
+    -   Vuex@3.6.2
+-   Vuetify@2.6.12
+
+## Dependencias de desarrollo
+
+-   Vite^3.2.3
+-   Prettier
+-   ESlint
+
+## Configuración IDE recomendada
+
+-   [VS Code](https://code.visualstudio.com/) + [Vetur](https://marketplace.visualstudio.com/items?itemName=Octref.vetur)
